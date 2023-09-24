@@ -10,6 +10,7 @@ Welcome to the Google Cloud Composer PySpark Word Count example project. This pr
 
 **Project Structure
 **
+
 The project consists of the following components:
 
 1. **DAGs**: This folder contains the Directed Acyclic Graph (DAG) definition, composer_pyspark_wordcount.py, which orchestrates the PySpark Word Count job. It schedules the creation of a Cloud Dataproc cluster, execution of the PySpark job, and deletion of the cluster upon job completion.
@@ -18,6 +19,7 @@ The project consists of the following components:
 
 **PySpark Word Count Job
 **
+
 The core of this project is the PySpark Word Count job. This job processes the **rose.txt** file, counts the occurrences of each word, and stores the results in a designated Cloud Storage bucket.
 
 **Usage**
